@@ -43,6 +43,7 @@ select(flights, -(year:day))
 
 ## 練習：只留下 科目名稱 及 授課老師 變數，並使用 %>% 寫法
 ```{r}
+transcript.data.new2%>%select(科目名稱,授課老師)
 
 ```
 
