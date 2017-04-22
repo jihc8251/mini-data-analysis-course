@@ -74,8 +74,8 @@ flights %>% filter(month==1, day==1) %>%
 ## 練習：計算 97學年 第1學期 陳孝琪 老師 經濟學原理 的全班成績 平均及標準差。
 ```{r}
 transcript.data.new2%>%filter(學年==97,學期==1,授課老師=="陳孝琪",科目名稱=="經濟學原理")%>%summarise(
-  mean.score=mean(成績,na.rm=TRUE),
-  sd.score=sd(成績,na.rm=TRUE))
+  mean.grade=mean(成績,na.rm=TRUE),
+  sd.grade=sd(成績,na.rm=TRUE))
 ```
 
 # Make new variables
