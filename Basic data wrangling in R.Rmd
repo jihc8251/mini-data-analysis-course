@@ -27,7 +27,8 @@ flights %>% filter(month==1,day==1)
 ## 練習：查詢資料維度並 選出97學年的成績
 ```{r}
 load("transcript sample.Rdata")
-
+dim(transcript.data.new2)
+transcript.data.new2%>%filter(學年==97)
 ```
 
 # Subset variables
